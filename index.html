@@ -51,6 +51,7 @@
               </ul>  
         </section>
 
+        <div class="index-columns">
         <section class="news">
             <h2>Новости</h2>
             <ul class="news-list">
@@ -69,12 +70,14 @@
         <section class="gallery">
             <h2>Фотогалерея</h2>
             <figure class="gallery-content">
-                <a href="#"><img src="img/photo-gallery.jpg" alt="Интерьер барбершопа Бородинский"></a>
+                <a href="#"><img src="img/photo-gallery.jpg" height="164" width="286" alt="Интерьер барбершопа Бородинский"></a>
             </figure>
             <button type="button" class="button gallery-button gallery-button-back">Назад</button>
             <button type="button" class="button gallery-button gallery-button-next">Вперёд</button>
         </section>
+        </div>
  
+        <div class="index-columns">
         <section class="contacts">
             <h2>Контактная информация</h2>
             <p>
@@ -95,29 +98,30 @@
             <h2>Записаться</h2>
             <p class="appointment-info">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
             <form method="post" action="https://echo.htmlacademy.ru">
-                <p>
+                <p class="appointment-item">
                     <label for="appointment-date">Дата</label>
                     Дата
                     <input type="date" name="date" value="2020-05-06">
                 </p>
-                <p>
+                <p class="appointment-item">
                     <label for="appointment-time">Время</label>
                     Время
                     <input type="time" name="time" value="10:00">
                 </p>
-                <p>
+                <p class="appointment-item">
                     <label for="appointment-name">Ваше имя</label>
                     Ваше имя
                     <input type="text" name="name" value="" placeholder="Евгений">
                 </p>
-                <p>
+                <p class="appointment-item">
                     <label for="appointment-phone">Телефон</label>
                     Телефон
                     <input type="tel" name="phone" value="" placeholder="+7 123 456 78 90">
                 </p>
-                <button type="submit">Записаться</button>
+                <button class="button" type="submit">Записаться</button>
             </form>
         </section>
+        </div>
     </main>
     
     <footer class="main-footer">
@@ -144,31 +148,33 @@
         <h2>Личный кабинет</h2>
         <p>Ведите пожалуйста свой логин и пароль</p>
         <form method="post" action="https://echo.htmlacademy.ru">
-            <p>
+            <p class="login-form">
                 <label for="user-login">Логин</label>
                 <input id="user-login" type="text" 
-                       name="login" placeholder="email@example.ccom">
+                       name="login" placeholder="email@example.com">
             </p>
-            <p>
+            <p class="login-form">
                 <label for="user-password">Пароль</label>
                 <input id="user-password" type="password" 
                        name="password" placeholder="********">
             </p>
-            <p>
-                <label>
+            <p class="login-form">
+                <label class="login-checkbox">
                     <input type="checkbox" name="remember">
                     Запомнить меня
                 </label>
-                <a href="#">Я забыл пароль!</a>
+                <a class="restore" href="#">Я забыл пароль!</a>
             </p>
-            <button type="submit">Войти</button>
+            <button class="button" type="submit">Войти</button>
         </form>
         <button type="button">Закрыть</button>
     </section>
 
     <section class="modal modal-map">
         <h2 class="visually-hidden">Как до нас добраться?</h1>
+        <img src="img/map.jpg" alt="Карта с отметкой местоположения барбершопа Бородинский">
         <button type="button">Закрыть</button>
+        
     </section>
 </body>
 </html>
