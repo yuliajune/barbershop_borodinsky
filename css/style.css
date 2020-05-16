@@ -172,6 +172,24 @@ footer-social ul {
   color: #ffffff;
 }
 
+.social-button-vk {
+  background-image: url(/img/svg/vk.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.social-button-fb {
+  background-image: url(/img/svg/facebook.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.social-button-inst {
+  background-image: url(/img/svg/instagram.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
 .footer-copyright {
   text-align: center;
 }
