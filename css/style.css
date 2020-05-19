@@ -73,8 +73,6 @@ a {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-
-  background-color: #000000;
 }
 
 .site-navigation,
@@ -250,6 +248,13 @@ footer-social ul {
 
 
 /*Сетки*/
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/* HEADER */
 .main-navigation {
   display: flex;
   flex-direction: column;
@@ -261,22 +266,34 @@ footer-social ul {
   order: 1;
 }
 
+.site-navigation{
+  width: 620px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.user-navigation {
+  width: 140px;
+  padding: 0px;
+  
+}
+ 
 .main-navigation-wrapper {
-  width: 940px;
-  margin-bottom: 70px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  background-color: #000000;
+}
+
+.main-navigation-wrapper, .container {
   display: flex;
   justify-content: space-between;
 }
+/* MAIN */
 
-.site-navigation, ul {
-  padding: 0;
-}
 
-.site-navigation {
-  width: 550px;
-  display: flex;
-  justify-content: space-around;
-}
+
 
 
 
