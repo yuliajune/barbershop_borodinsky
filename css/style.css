@@ -291,8 +291,20 @@ footer-social ul {
   justify-content: space-between;
 }
 /* MAIN */
+.features {
+  margin-bottom: 80px;
+}
 
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
 
+.feature-item {
+  width: 300px;
+}
 
 
 
